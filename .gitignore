@@ -3,3 +3,44 @@
 .env.*
 secure.env
 secure.env.*
+
+# Node modules
+node_modules/
+node_modules
+frontend/node_modules
+backend/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.log
+*.tgz
+*.zip
+*.tmp
+*.swp
+*.bak
+*.orig
+*.rej
+.vite
